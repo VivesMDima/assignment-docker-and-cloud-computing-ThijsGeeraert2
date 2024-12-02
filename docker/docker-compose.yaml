@@ -1,0 +1,6 @@
+services:
+  backend:
+  frontend:
+    image: ./backend/src/build
+  db:
+    image: mongo:latest
